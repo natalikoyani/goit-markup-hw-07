@@ -386,22 +386,20 @@ body {
   background: var(--dark-color);
 }
 
-/* .footer > .container {
+.footer > .container {
   display: flex;
-  flex-wrap: wrap;
-} */
-
-/* .footer .left-block {
-  max-width: 264px;
-  margin-right: 120px;
-} */
+  flex-direction: column;
+  justify-content: center;
+}
 
 .footer .left-block {
-  margin-bottom: 72px;
+  /* max-width: 264px; */
+  /* margin-right: 120px; */
 }
 
 .footer-logo {
-  max-width: 117px;
+  display: flex;
+  justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -417,21 +415,18 @@ body {
 }
 
 .footer-text {
-  max-width: 268px;
   margin-top: 16px;
+
+  color: var(--accent-color);
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-color);
 }
 
-/* .footer .center-block {
+.footer .center-block {
   max-width: 208px;
   margin-right: 80px;
-} */
-
-.footer .center-block {
-  margin-bottom: 72px;
 }
 
 .footer-soc-title {
@@ -469,9 +464,9 @@ body {
   background-color: var(--success-color);
 }
 
-/* .right-block {
+.right-block {
   display: flex;
-} */
+}
 
 .subscribe-title {
   display: inline-block;
@@ -483,17 +478,15 @@ body {
   color: var(--background-color);
 }
 
-/* .subscribe-field {
+.subscribe-field {
   display: flex;
-} */
+}
 
 .subscribe-input {
-  /* margin-right: 24px; */
-  margin-bottom: 16px;
+  margin-right: 24px;
   padding-left: 16px;
-  width: 100%;
+  width: 264px;
   height: 40px;
-  font-size: 12px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
