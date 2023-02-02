@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  /* -----------HERO-------------- */
+
+  .container {
+    width: 768px;
+  }
+
+  .hero {
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    max-width: 500px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  /* ----------PRINCIPLES---------- */
+
+  .section-list {
+    column-gap: 24px;
+  }
+
+  .principles-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* -------------TEAM--------------- */
+
+  .team > .container {
+    max-width: 582px;
+  }
+
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team .section-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /* ------------CUSTOMERS----------- */
+
+  .customers .section-list {
+    column-gap: 24px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+}

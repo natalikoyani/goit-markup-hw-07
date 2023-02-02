@@ -1,0 +1,53 @@
+@media screen and (min-width: 1200px) {
+  /* -----------HERO-------------- */
+
+  .container {
+    width: 1200px;
+  }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* ----------PRINCIPLES---------- */
+
+  .principles {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .principles-list-item {
+    flex-basis: calc((100% - 24px * 3) / 4);
+  }
+
+  /* -------------TEAM--------------- */
+
+  .team > .container {
+    max-width: 1158px;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 24px * 3) / 4);
+  }
+
+  /* ----------CUSTOMERS----------- */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 24px * 5) / 6);
+  }
+}

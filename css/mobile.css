@@ -1,0 +1,21 @@
+@media screen and (min-width: 480px) {
+  /* -----------HERO-------------- */
+
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* --------PRINCIPLES---------- */
+
+  .icon-container {
+    display: none;
+  }
+
+  /* ---------EXAMPLES------------ */
+
+  .examples {
+    display: none;
+  }
+}
