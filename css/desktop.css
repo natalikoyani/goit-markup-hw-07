@@ -28,7 +28,7 @@
   /* -------------TEAM--------------- */
 
   .team > .container {
-    max-width: 1158px;
+    max-width: 1200px;
   }
 
   .team {
@@ -42,13 +42,13 @@
 
   /* ----------CUSTOMERS----------- */
 
+  .customers > .container {
+    max-width: 1200px;
+  }
+
   .customers {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-
-  .customers > .container {
-    max-width: 1128px;
   }
 
   .customers-list-item {
@@ -59,8 +59,9 @@
 
   .footer > .container {
     flex-wrap: nowrap;
-    max-width: 1128px;
+    max-width: 1200px;
     column-gap: 0;
+    justify-content: space-between;
   }
 
   .footer .left-block {
@@ -69,7 +70,6 @@
   }
 
   .footer .center-block {
-    width: 208px;
     margin-right: 80px;
     margin-bottom: 0;
   }

@@ -386,11 +386,6 @@ body {
   background: var(--dark-color);
 }
 
-/* .footer .left-block {
-  max-width: 264px;
-  margin-right: 120px;
-} */
-
 .footer .left-block {
   margin-bottom: 72px;
   text-align: center;
@@ -419,11 +414,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-
-/* .footer .center-block {
-  max-width: 208px;
-  margin-right: 80px;
-} */
 
 .footer .center-block {
   margin-bottom: 72px;
@@ -501,7 +491,7 @@ body {
 .subscribe-btn {
   display: flex;
   align-items: center;
-  max-width: 165px;
+  width: 165px;
   height: 40px;
   margin: 0 auto;
   padding: 8px 24px;

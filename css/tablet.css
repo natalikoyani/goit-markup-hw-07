@@ -47,6 +47,9 @@
 
   /* ------------CUSTOMERS----------- */
 
+  .customers > .container {
+  }
+
   .customers .section-list {
     column-gap: 24px;
   }
