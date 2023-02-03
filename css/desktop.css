@@ -47,7 +47,34 @@
     padding-bottom: 120px;
   }
 
+  .customers > .container {
+    max-width: 1128px;
+  }
+
   .customers-list-item {
     width: calc((100% - 24px * 5) / 6);
+  }
+
+  /* ------------FOOTER-------------- */
+
+  .footer > .container {
+    flex-wrap: nowrap;
+    max-width: 1128px;
+    column-gap: 0;
+  }
+
+  .footer .left-block {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer .center-block {
+    width: 208px;
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  .section-list.soc-list {
+    flex-wrap: nowrap;
   }
 }

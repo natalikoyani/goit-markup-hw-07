@@ -386,20 +386,17 @@ body {
   background: var(--dark-color);
 }
 
-.footer > .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+/* .footer .left-block {
+  max-width: 264px;
+  margin-right: 120px;
+} */
 
 .footer .left-block {
-  /* max-width: 264px; */
-  /* margin-right: 120px; */
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .footer-logo {
-  display: flex;
-  justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -415,18 +412,22 @@ body {
 }
 
 .footer-text {
-  margin-top: 16px;
-
-  color: var(--accent-color);
-
+  max-width: 268px;
+  margin: 16px auto 0 auto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
-.footer .center-block {
+/* .footer .center-block {
   max-width: 208px;
   margin-right: 80px;
+} */
+
+.footer .center-block {
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .footer-soc-title {
@@ -435,7 +436,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--background-color);
 }
 
@@ -465,7 +465,7 @@ body {
 }
 
 .right-block {
-  display: flex;
+  text-align: center;
 }
 
 .subscribe-title {
@@ -480,13 +480,17 @@ body {
 
 .subscribe-field {
   display: flex;
+  flex-direction: column;
 }
 
 .subscribe-input {
-  margin-right: 24px;
+  margin-bottom: 16px;
   padding-left: 16px;
-  width: 264px;
+  width: 100%;
   height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -495,8 +499,11 @@ body {
 }
 
 .subscribe-btn {
-  min-width: 165px;
+  display: flex;
+  align-items: center;
+  max-width: 165px;
   height: 40px;
+  margin: 0 auto;
   padding: 8px 24px;
   font-weight: 500;
   font-size: 16px;
@@ -508,8 +515,6 @@ body {
   border: none;
   transition: background-color var(--transition-time),
     box-shadow var(--transition-time);
-  display: flex;
-  align-items: center;
 }
 
 .subscribe-btn:hover,

@@ -54,4 +54,37 @@
   .customers-list-item {
     width: calc((100% - 24px * 2) / 3);
   }
+
+  /* -----------FOOTER--------------- */
+
+  .footer > .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 582px;
+    column-gap: 24px;
+  }
+
+  .footer .left-block {
+    width: 264px;
+    text-align: start;
+  }
+
+  .footer .center-block {
+    width: 208px;
+    text-align: start;
+  }
+
+  .footer .right-block {
+    width: 453px;
+    text-align: start;
+  }
+
+  .subscribe-field {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .subscribe-input {
+    margin-bottom: 0;
+  }
 }
