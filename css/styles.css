@@ -207,6 +207,7 @@ body {
 .section-list {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .section-title {
@@ -232,11 +233,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
-.section-list {
-  list-style: none;
-}
-
 /* -------------PRINCIPLES--------- */
 
 .principles {
