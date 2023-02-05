@@ -28,7 +28,7 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  width: 320px;
+  min-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -60,10 +60,6 @@ body {
 }
 
 .header-logo {
-  margin-right: 76px;
-
-  color: var(--dark-color);
-
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -71,6 +67,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--dark-color);
 }
 
 .header-logo .web {
@@ -119,13 +116,11 @@ body {
 }
 
 .header-mail {
-  color: var(--dark-color);
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-right: 40px;
+  color: var(--dark-color);
   transition: color var(--transition-time);
 }
 
@@ -148,6 +143,10 @@ body {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--primary-brand-color);
+}
+
+.menu-hamburger-icon {
+  stroke: var(--dark-color);
 }
 
 /*---------- HERO------------ */

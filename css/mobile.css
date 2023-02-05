@@ -1,6 +1,4 @@
 @media screen and (min-width: 480px) {
-  /* -----------HERO-------------- */
-
   .container {
     width: 480px;
   }
@@ -9,6 +7,22 @@
 
   .modal {
     width: 392px;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  /* ---------HEADER------------- */
+
+  .nav-list {
+    display: none;
+  }
+
+  .header-mail {
+    display: none;
+  }
+
+  .header-tel {
+    display: none;
   }
 }
 

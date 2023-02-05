@@ -1,4 +1,42 @@
 @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  /* ----------HEADER------------- */
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .header {
+    padding-bottom: 10px;
+  }
+
+  .header-logo {
+    margin-right: 123px;
+  }
+
+  .nav-list .link {
+    font-weight: 500;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 118px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+
+  .header-mail,
+  .header-tel {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+
   /* -----------HERO-------------- */
 
   .container {
@@ -46,6 +84,10 @@
   }
 
   /* ------------CUSTOMERS----------- */
+
+  .customers > .container {
+    max-width: 582px;
+  }
 
   .customers .section-list {
     column-gap: 24px;
