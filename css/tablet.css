@@ -47,9 +47,6 @@
 
   /* ------------CUSTOMERS----------- */
 
-  .customers > .container {
-  }
-
   .customers .section-list {
     column-gap: 24px;
   }
@@ -89,5 +86,17 @@
 
   .subscribe-input {
     margin-bottom: 0;
+  }
+
+  /* ----------MODAL-------------- */
+
+  .modal {
+    width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .modal-title {
+    margin-bottom: 14px;
   }
 }

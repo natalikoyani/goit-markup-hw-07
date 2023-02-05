@@ -638,7 +638,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 85%;
   min-height: 576px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -646,7 +646,7 @@ body {
   border-radius: 4px;
   transform: translate(-50%, -50%) scaleX(1);
   transition: transform var(--transition-time);
-  padding: 24px;
+  padding: 24px 16px;
 }
 
 .backdrop.is-hidden .modal {
@@ -681,7 +681,7 @@ body {
 }
 
 .modal-title {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -740,6 +740,9 @@ body {
   width: 100%;
   height: 120px;
   padding: 8px 16px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   background-color: transparent;
@@ -787,19 +790,17 @@ body {
 }
 
 .checkbox-text span {
+  display: inline-block;
   width: 16px;
   height: 16px;
   border: 1.25px solid var(--dark-color);
   border-radius: 2px;
   margin-right: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: transparent;
 }
 
-.checkbox-text {
-  display: flex;
+.checkbox-icon {
+  transform: translateX(30%);
 }
 
 .checkbox-input:checked + .checkbox-text span {
