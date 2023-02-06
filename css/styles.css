@@ -104,7 +104,7 @@ body {
   height: 4px;
   background-color: var(--pressed-state-color);
   left: 0;
-  bottom: -28px;
+  bottom: -21px;
   border-radius: 2px;
 }
 

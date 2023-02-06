@@ -3,6 +3,33 @@
     width: 1200px;
   }
 
+  /* ----------HEADER------------- */
+
+  .header {
+    padding-bottom: 28px;
+  }
+
+  .link.current::after {
+    bottom: -30px;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-contacts {
+    display: inline-block;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .header-mail {
+    margin-right: 40px;
+  }
+
   /* -----------HERO-------------- */
 
   .hero {
