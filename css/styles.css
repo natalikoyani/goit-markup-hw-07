@@ -191,6 +191,15 @@ body {
   background-color: var(--accent-color);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: fill var(--transition-time),
+    background-color var(--transition-time);
+}
+
+.menu-close-btn:active,
+.menu-close-btn:hover,
+.menu-close-btn:focus {
+  fill: var(--background-color);
+  background-color: var(--pressed-state-color);
 }
 
 .mob-list-item:not(:last-child) {
@@ -244,6 +253,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--transition-time);
+}
+
+.mob-soc-link:hover,
+.mob-soc-link:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.link.current-mobile {
+  color: var(--pressed-state-color);
 }
 
 /*---------- HERO------------ */
