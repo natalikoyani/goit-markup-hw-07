@@ -3,6 +3,16 @@
     width: 480px;
   }
 
+  /* --------MOBILE MENU---------- */
+
+  .mob-header-tel {
+    font-size: 36px;
+  }
+
+  .mob-soc-list {
+    column-gap: 56px;
+  }
+
   /* ----------MODAL-------------- */
 
   .modal {
