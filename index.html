@@ -42,16 +42,16 @@
           >
           <a class="header-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </div>
-        <button type="button" class="menu-open">
+        <button type="button" class="menu-open" data-menu-open>
           <svg class="menu-hamburger-icon" width="32px" height="22px">
             <use href="./images/icons.svg#icon-menu-hamburger"></use>
           </svg>
         </button>
 
-        <div class="mobile-menu">
+        <div class="mobile-menu is-hidden" data-menu>
           <div class="mobile-container">
             <div class="mob-menu-top">
-              <button type="button" class="menu-close-btn">
+              <button type="button" class="menu-close-btn" data-menu-close>
                 <svg class="icon-close-btn" width="8px" height="8px">
                   <use href="/images/icons.svg#icon-close-button"></use>
                 </svg>
@@ -227,6 +227,10 @@
               <img
                 src="images/markguerrero.jpg"
                 alt="Mark Guerrero"
+                srcset="
+                  images/markguerrero.jpg    1x,
+                  images/markguerrero_2x.jpg 2x
+                "
                 width="264"
               />
               <div class="team-list-content">
@@ -266,7 +270,12 @@
             </li>
 
             <li class="team-list-item">
-              <img src="images/tomford.jpg" alt="Tom Ford" width="264" />
+              <img
+                src="images/tomford.jpg"
+                alt="Tom Ford"
+                srcset="images/tomford.jpg 1x, images/tomford_2x.jpg 2x"
+                width="264"
+              />
               <div class="team-list-content">
                 <h3 class="title team-list">Tom Ford</h3>
                 <p class="text team-list">Frontend Developer</p>
@@ -306,6 +315,10 @@
             <li class="team-list-item">
               <img
                 src="images/camilagarcia.jpg"
+                srcset="
+                  images/camilagarcia.jpg    1x,
+                  images/camilagarcia_2x.jpg 2x
+                "
                 alt="Camila Garcia"
                 width="264"
               />
@@ -348,6 +361,10 @@
             <li class="team-list-item">
               <img
                 src="images/danielwilson.jpg"
+                srcset="
+                  images/danielwilson.jpg    1x,
+                  images/danielwilson_2x.jpg 2x
+                "
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -604,7 +621,7 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

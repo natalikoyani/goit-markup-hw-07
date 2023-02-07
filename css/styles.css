@@ -45,6 +45,10 @@ body {
   margin: 0 auto;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /*---------- HEADER------------ */
 
 .header {
@@ -253,9 +257,22 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero_bg_mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_bg_mob_2x.jpg);
+  }
 }
 
 .hero-title {

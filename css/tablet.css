@@ -5,7 +5,7 @@
 
   /* ----------HEADER------------- */
 
-  .menu-hamburger {
+  .menu-open {
     display: none;
   }
 
@@ -45,6 +45,24 @@
 
   .hero {
     padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_bg_tab.jpg);
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero_bg_tab_2x.jpg);
+    }
   }
 
   .hero-title {

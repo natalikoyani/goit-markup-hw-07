@@ -18,6 +18,12 @@
   .modal {
     width: 392px;
   }
+
+  /* ------------HERO-------------- */
+
+  .hero {
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 767.5px) {
