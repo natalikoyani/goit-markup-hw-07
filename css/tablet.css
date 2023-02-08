@@ -82,6 +82,10 @@
     flex-basis: calc((100% - 24px) / 2);
   }
 
+  .principles .title {
+    text-align: start;
+  }
+
   /* -------------TEAM--------------- */
 
   .team > .container {

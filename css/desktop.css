@@ -72,6 +72,12 @@
     flex-basis: calc((100% - 24px * 3) / 4);
   }
 
+  .section-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
   /* -------------TEAM--------------- */
 
   .team > .container {

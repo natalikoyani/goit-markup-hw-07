@@ -215,18 +215,19 @@ body {
 }
 
 .mob-header-tel {
-  display: inline-block;
+  display: block;
   margin-bottom: 40px;
   font-weight: 600;
   font-size: 23px;
   line-height: 1.11;
   letter-spacing: 0.01em;
   text-transform: capitalize;
+  text-decoration: none;
   color: var(--primary-brand-color);
 }
 
 .mob-header-mail {
-  display: inline-block;
+  display: block;
   margin-bottom: 48px;
   font-weight: 500;
   font-size: 20px;
@@ -370,6 +371,10 @@ body {
 
 .principles .section-list {
   row-gap: 72px;
+}
+
+.principles .title {
+  text-align: center;
 }
 
 .icon-container {
